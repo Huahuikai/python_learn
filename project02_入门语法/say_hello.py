@@ -6,8 +6,9 @@
 """
 
 def say_hi():
-    print('hello 你好')
+    input_strings = input('请你说一句试试：')
+    return (input_strings)
 
 
 if __name__ == '__main__':
-    say_hi()
+    print(say_hi())

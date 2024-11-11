@@ -28,6 +28,7 @@ def append_file(file_name,data):
     f.close()
 
 if __name__ == '__main__':
+    pass
     # print_file_info()
     # print_file_info2()
-    append_file('a.txt','hello world')
+    # append_file('a.txt','hello world')

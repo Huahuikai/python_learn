@@ -7,7 +7,7 @@
 
 def hello():
     print('第一次测试')
-# TODO: 未能实现功能
+# TODO: todo测试
 
 # 主方法
 if __name__ == '__main__':

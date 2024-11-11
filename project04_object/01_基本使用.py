@@ -21,13 +21,13 @@ class Student:
         winsound.Beep(2000, 3000)
 
     # 构造方法
-    def __init__(self, name, sex, msg):
+    def __init__(self, name, age, msg):
         # 可以在这里声明类的属性
         self.name = name
-        self.sex = sex
+        self.age = age
         print(f'我叫{name},我正在努力学习{msg}')
 
-
+# 创建一个对象
 # huahuikai = Student()
 # huahuikai.name = '花会开'
 # huahuikai.sex = '男'

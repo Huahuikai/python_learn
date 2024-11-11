@@ -34,6 +34,7 @@ class RemoteControl(Phone):
     def control(self):
         print(f'{self.producer}实现了红外遥控器功能')
 
+
 # 单继承实现
 # new_phone = Phone2024(1234321, '华为')
 # print(new_phone.id)
@@ -47,18 +48,21 @@ class MyPhone(Phone2024, RemoteControl):
     pass
 
 
-my_phone = MyPhone(123321,'华为')
+my_phone = MyPhone(123321, '华为')
 my_phone.call_by_4g()
 my_phone.control()
 
+
 def test():
     import random
-    content = random.randint(1,10)
+    content = random.randint(1, 10)
     print(f'随机数是{content}')
 
-def func(data:list):
+
+def func(data: list):
     return data * 3
+
 
 if __name__ == '__main__':
     # test()
-    print(func([1,2,3]))
+    print(func([1, 2, 3]))

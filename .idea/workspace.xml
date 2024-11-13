@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c192b84c-ba46-4dba-a9f5-c3b071bf8390" name="Changes" comment="不知道是什么">
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/pythonProjectReview.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/webResources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +52,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/One/Code/Python/pycharm/pythonProjects/pythonProjectReview",
+    "last_opened_file_path": "E:/One/Code/Python/pycharm/pythonProjects/pythonProjectReview/project05_pymysql/data_visualization_to_mysql",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,16 +60,25 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\One\Code\Python\pycharm\pythonProjects\pythonProjectReview\project05_pymysql\data_visualization_to_mysql" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\One\Code\Python\pycharm\pythonProjects\pythonProjectReview\project05_pymysql\data_visualization_to_mysql" />
       <recent name="E:\One\Code\Python\pycharm\pythonProjects\pythonProjectReview\project04_object\数据分析案列\data" />
       <recent name="E:\One\Code\Python\pycharm\pythonProjects\pythonProjectReview" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="02_继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="01_pymysql入门" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectReview" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,12 +86,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project04_object" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project05_pymysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project04_object/02_继承.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project05_pymysql/01_pymysql入门.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_pymysql入门" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.file_define" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.data_define" />
-        <item itemvalue="Python.02_继承" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +237,7 @@
       <workItem from="1730983655723" duration="3263000" />
       <workItem from="1731036381545" duration="9913000" />
       <workItem from="1731151416995" duration="5000" />
-      <workItem from="1731151594665" duration="42840000" />
+      <workItem from="1731151594665" duration="58836000" />
     </task>
     <task id="LOCAL-00001" summary="第一次测试">
       <created>1731046056074</created>
@@ -293,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731382622418</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="不知道是什么">
+      <created>1731389484483</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731389484483</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +344,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProjectReview$say_hello.coverage" NAME="say_hello Coverage Results" MODIFIED="1731152892642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project02_入门语法" />
+    <SUITE FILE_PATH="coverage/pythonProjectReview$01_pymysql.coverage" NAME="01_pymysql入门 Coverage Results" MODIFIED="1731413564908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project05_pymysql" />
     <SUITE FILE_PATH="coverage/pythonProjectReview$data_define.coverage" NAME="data_define Coverage Results" MODIFIED="1731377656328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project04_object/数据分析案列" />
     <SUITE FILE_PATH="coverage/pythonProjectReview$04_.coverage" NAME="04_布尔 Coverage Results" MODIFIED="1730864376893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project02_入门语法" />
     <SUITE FILE_PATH="coverage/pythonProjectReview$file_define.coverage" NAME="file_define Coverage Results" MODIFIED="1731378555567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project04_object/数据分析案列" />
@@ -349,6 +359,7 @@
     <SUITE FILE_PATH="coverage/pythonProjectReview$file_util.coverage" NAME="file_util Coverage Results" MODIFIED="1731153431630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_utils" />
     <SUITE FILE_PATH="coverage/pythonProjectReview$01_.coverage" NAME="01_基本使用 Coverage Results" MODIFIED="1731297648758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project04_object" />
     <SUITE FILE_PATH="coverage/pythonProjectReview$02_.coverage" NAME="02_继承 Coverage Results" MODIFIED="1731307857113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project04_object" />
+    <SUITE FILE_PATH="coverage/pythonProjectReview$main.coverage" NAME="main Coverage Results" MODIFIED="1731414367338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project05_pymysql/data_visualization_to_mysql" />
     <SUITE FILE_PATH="coverage/pythonProjectReview$say_hello__1_.coverage" NAME="say_hello (1) Coverage Results" MODIFIED="1730706826041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project01" />
     <SUITE FILE_PATH="coverage/pythonProjectReview$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1731378494942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project04_object/数据分析案列/test" />
     <SUITE FILE_PATH="coverage/pythonProjectReview$03_.coverage" NAME="03_股价计算小程序 Coverage Results" MODIFIED="1730858237132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project02_入门语法" />
